@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radijatori</title>
+
+    <!-- Uključivanje Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        @keyframes colorChange {
+            0% {
+                background-color: red;
+            }
+            50% {
+                background-color: orange;
+            }
+            100% {
+                background-color: red;
+            }
+        }
+
+        body {
+            animation: colorChange 6s linear infinite; /* 6s ukupno, 3 sekunde za svaku boju */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dobrodošli na stranicu o radijatorima</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#vrste-radijatora">Vrste radijatora</a></li>
+            <li><a href="#dodatne-informacije">Dodatne informacije</a></li>
+        </ul>
+    </nav>
+
+    <section id="vrste-radijatora">
+        <h2>Vrste radijatora</h2>
+        <table class="table table-bordered">
+            <tr>
+                <th>Vrsta radijatora</th>
+                <th>Slika</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>Panelni radijator</td>
+                <td><img src="https://www.nesa-komerc.com/wp-content/uploads/2022/06/grp-pekpan.jpg" alt="Panelni radijator"></td>
+                <td>
+                    Panelni radijatori su popularni zbog svoje efikasnosti i estetskog izgleda. 
+                    Imaju ravnu površinu i brzo zagrijavaju prostoriju.
+                </td>
+            </tr>
+            <tr>
+                <td>Konvektorski radijator</td>
+                <td><img src="https://yekupi.blob.core.windows.net/ekupiba/515Wx515H/EK000364840_1.image" alt="Konvektorski radijator"></td>
+                <td>
+                    Konvektorski radijatori koriste konvekciju za zagrijavanje zraka. 
+                    Imaju ventilator koji ubrzava proces zagrijavanja.
+                </td>
+            </tr>
+            <!-- Dodajte ostale vrste radijatora i informacije o njima ovdje -->
+        </table>
+    </section>
+
+    <section id="dodatne-informacije">
+        <h2>Dodatne informacije</h2>
+        <p>
+            Radijatori su neizostavan dio modernih sistema za grijanje i imaju dugu i zanimljivu historiju. 
+            Prvi radijatori, poznati kao lijevani radijatori, koristili su se u 19. vijeku i bili su često 
+            napravljeni od lijevanog gvožđa. Ovi radijatori su bili teški i nespretni, ali su igrali ključnu 
+            ulogu u zagrijavanju mnogih domova i industrijskih objekata tog vremena.
+
+            Danas radijatori dolaze u raznim oblicima i veličinama, uključujući i moderne panelne radijatore, 
+            konvektorske radijatore i radijatore s ventilatorima. Njihova svrha je zagrijavanje prostorija 
+            tako da ljudi u njima budu udobni, bez obzira na spoljnu temperaturu.
+
+            Osim što zagrijavaju prostorije, radijatori su često i estetski elementi u domovima. Panelni 
+            radijatori, na primjer, mogu se prilagoditi različitim enterijerima svojim modernim dizajnom i 
+            bojama.
+
+            Ako planirate nabaviti radijator za svoj dom, važno je razmotriti faktore kao što su veličina 
+            prostorije, energetska efikasnost i vrsta goriva koja će se koristiti za grijanje.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Stranica o radijatorima</p>
+    </footer>
+
+    <!-- Uključivanje Bootstrap JavaScript-a (opciono) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- Ime i prezime -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                Amar Nurudini
+            </div>
+        </div>
+    </div>
+</body>
+</html>
